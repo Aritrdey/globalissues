@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 /* @import url(fonts/Helvetica.ttf); */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;800&display=swap');
 
 
 /* Header & Nav  */
@@ -10,6 +10,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .header{
     display: inline-flex;
@@ -23,23 +24,8 @@ header img{
   width: 10vw;
 }
 
-.header nav li{
-    list-style: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 0 0 5vw;
-}
 
-.header nav li a{
-    text-decoration: none;
-    color: black;
-    font-family: Poppins;
-    font-weight: bolder;
-    margin: 0 3vw;
-}
-.header nav li a:hover{
+.header nav a:hover{
     font-size: 2vh;
 }
 header:after{
@@ -74,7 +60,8 @@ nav{
 .link-1:hover {
   background-color: black;
   color: white;
-  padding: 5.5vh 2vw;
+  /* padding: 5.5vh 2vw; */
+  /* color: red; */
 }
 
 /* Line  */
@@ -107,13 +94,14 @@ nav{
   border: black solid .1vh;
   background-color: transparent;
   font-family: 'DM Sans';
-  margin: 2vh 2vw;
+  margin: 2vh 1.5vw;
   padding: 1.5vh 1.5vw;
   font-size: 2vh;
   cursor: pointer;
 }
 .content .btn:hover{
-  background-color: gray;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
   color: white;
   font-size: 2.1vh;
 }
@@ -128,6 +116,40 @@ nav{
 }
 
 
+
+
+
+/* YOUR ISSUE SECTION  */
+
+.your-issue{
+  padding: 2vh 3vw;
+  background-color: royalblue;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.your-issue h3{
+  font-family: Montserrat;
+  color: white;
+  font-size: 4vh;
+  margin-right: 5vw;
+}
+.your-issue a button{
+  border: white solid .1vh;
+  background-color: transparent;
+  font-family: Outfit;
+  margin: 2vh 1.5vw;
+  padding: 1.5vh 1.5vw;
+  font-size: 2vh;
+  cursor: pointer;
+  color: white;
+}
+.your-issue a button:hover{
+  background-color: white;
+  color: black;
+}
 
 
 
@@ -148,12 +170,36 @@ nav{
     height: 14vh;
     text-align: center;
   }
+  header nav a{
+    margin: 0 4vw 0 2vw;
+  }
+  
 
   .link-1:hover {
     background-color: black;
     color: white;
     padding: 1vh 2vw;
   }
-  
 
-}
+
+
+
+  .content .btn{
+    /* outline: none; */
+    border: black solid .1vh;
+    background-color: transparent;
+    font-family: 'DM Sans';
+    margin: 1.3vh 1vw;
+    padding: 1vh 1vw;
+    font-size: 1.5vh;
+    cursor: pointer;
+  }
+
+
+  .your-issue h3{
+    font-size: 2.5vh;
+  }
+  .your-issue a button{
+    font-size: 1.5vh;
+  }
+  
