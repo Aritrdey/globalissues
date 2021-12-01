@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+/* @import url(fonts/Helvetica.ttf); */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;800&display=swap');
+
+
+/* Header & Nav  */
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.header{
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    margin: 2vh 3vw  0 3vw;
+}
+
+header img{
+  height: 10vh;
+  width: 10vw;
+}
+
+
+.header nav a:hover{
+    font-size: 2vh;
+}
+header:after{
+    background-color: red;
+    height: 1vh;
+    width: 100vw;
+}
+
+/* Animation Input  */
+
+nav{
+  margin-top: 40px;
+  margin-left: 2vw;
+  /* padding: 24px; */
+  text-align: center;
+  font-family: Poppins;
+  /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); */
+}
+
+#nav-1 {
+  background: white;
+}
+
+.link-1 {
+  transition: 0.4s;
+  color: black;
+  font-size: 2vh;
+  text-decoration: none;
+  padding: .5vh 1vw;
+  margin: .5vh 1vw;
+}
+.link-1:hover {
+  background-color: black;
+  color: white;
+  /* padding: 5.5vh 2vw; */
+  /* color: red; */
+}
+
+/* Line  */
+
+
+.line{
+    margin-top: 2vh;
+    background-color: red;
+    height: .5vh;
+    width: 100vw;
+}
+
+
+
+/* CATEGORY SECTION  */
+
+.content{
+  margin: 2vh 3vw;
+  padding: 1vh 2vw;
+}
+.content .head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content h2{
+  font-family: Outfit;
+  margin: 2vh;
+  font-weight: 900;
+  text-align: center;
+}
+
+.content .btn{
+  /* outline: none; */
+  border: black solid .1vh;
+  background-color: transparent;
+  font-family: 'DM Sans';
+  margin: 2vh 1.5vw;
+  padding: 1.5vh 1.5vw;
+  font-size: 2vh;
+  cursor: pointer;
+
+}
+.content .btn:hover{
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  color: white;
+  font-size: 2.1vh;
+}
+
+.content .item{
+  padding: 1vh 1vw;
+}
+
+.content .item h3{
+  font-family: Outfit;
+  
+}
+
+
+/* CATEGORY SECTION 2  */
+
+
+
+
+
+
+/* YOUR ISSUE SECTION  */
+
+.your-issue{
+  padding: 2vh 3vw;
+  background-color: royalblue;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.your-issue h3{
+  font-family: Montserrat;
+  color: white;
+  font-size: 4vh;
+  margin-right: 5vw;
+}
+.your-issue a button{
+  border: white solid .1vh;
+  background-color: transparent;
+  font-family: Outfit;
+  margin: 2vh 1.5vw;
+  padding: 1.5vh 1.5vw;
+  font-size: 2vh;
+  cursor: pointer;
+  color: white;
+}
+.your-issue a button:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+/* HIGHLIGHTS SECTION  */
+
+.highlights{
+  margin: 3vh 4vw;
+}
+.highlights h1{
+  font-family: Montserrat;
+}
+.highlights .items a button{
+  border: black solid .1vh;
+  background-color: transparent;
+  font-family: 'DM Sans';
+  margin: 2vh 1.5vw;
+  padding: 1.5vh 1.5vw;
+  font-size: 2vh;
+  cursor: pointer;
+}
+.highlights .items a button:hover{
+  background-color: gray;
+  color: white;
+}
+
+
+/* SOCIAL MEDIA SECTION  */
+
+.social-media{
+  padding: 3vh 4vw;
+}
+.social-media h1{
+  font-family: Montserrat;
+}
+.social-media .links{
+  margin: 2vh 1vw;
+}
+.social-media .links a{
+  display: block;
+  color: #3d3d3d;
+  text-decoration: none;
+  font-family: Outfit;
+  font-weight: 700;
+}
+.social-media .links a:hover{
+  text-decoration: underline #3d3d3d;
+}
+.social-media .links a i{
+  margin: 0 .5vw;
+}
+
+
+
+
+/* FOOTER SECTION  */
+
+.footer{
+  padding: 3vh 4vw;
+  font-family: Outfit;
+  background-color: royalblue;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .left{
+  width: 30vw;
+}
+.footer .left h1{
+  font-size: 6vh;
+}
+.footer .left p{
+  font-family: 'DM Sans';
+}
+
+
+.footer .center{
+  margin: 1vh 3vw;
+  width: 20vw;
+}
+.footer .center h1{
+  text-align: center;
+}
+.footer .center .links{
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin: 4vh 4vw;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover{
+  text-decoration: underline white;
+}
+
+
+.footer .right{
+  margin: 1vh 3vw;
+  width: 20vw;
+}
+.footer .right h1{
+  text-align: center;
+}
+.footer .right .links{
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin: 4vh 4vw;
+}
+
+
+
+
+/* Media Queries  */
+
+@media only screen and (max-width: 900px) {
+    
+  header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header img{
+    width: 60vw;
+    height: 14vh;
+    text-align: center;
+  }
+  header nav a{
+    margin: 0 4vw 0 2vw;
+  }
+  
+
+  .link-1:hover {
+    background-color: black;
+    color: white;
+    padding: 1vh 2vw;
+  }
+
+
+
+
+  .content .btn{
+    /* outline: none; */
+    border: black solid .1vh;
+    background-color: transparent;
+    font-family: 'DM Sans';
+    margin: 1.3vh 1vw;
+    padding: 1vh 1vw;
+    font-size: 1.5vh;
+    cursor: pointer;
+  }
+
+
+  .your-issue h3{
+    font-size: 2.5vh;
+  }
+  .your-issue a button{
+    font-size: 1.5vh;
+  }
+
+
+
+
+  .footer .left{
+    width: 100vw;
+  }
+  .footer .center{
+    width: 100vw;
+  }
+  .footer .right{
+    width: 100vw;
+  }
+}
